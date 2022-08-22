@@ -62,3 +62,16 @@ function emotionsLevel(level){
     }
 }
 emotionsLevel()
+// functions as an arguemnt
+function favoriteplayer(){
+    console.log('raphina')
+}
+function repeat(player,loveRating){
+   for (let index = 0; index < loveRating; index++) {
+    player()
+  
+    
+   }
+}
+repeat(favoriteplayer,4)
+ 
