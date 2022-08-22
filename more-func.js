@@ -82,3 +82,16 @@ repeat(favoriteplayer,4)
  }
 let divideby2 = Divide(2)
 let divide3 = Divide(3)
+// function checking for the minimum and maximum a club can recruit 
+function recruit(min,max){
+    return function(playersAge){
+        if(playersAge >= min && playersAge <= max  ){
+            console.log('your age passed our age check goodluck on your recruit')
+            
+        }else{
+            console.log('Sorry your age does not pass our age check')
+        }
+    }
+    
+}
+let age = recruit(16,29)
