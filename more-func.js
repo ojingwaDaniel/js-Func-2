@@ -31,7 +31,7 @@ for (let func in opreators) {
 function square(num,raiseTo){
     return num ** raiseTo
 }
-// function as return statement
+// FUNCTION AS A PARAMETER
 function motivationsMusic(){
     let music = {
         'Non-stop' : 'kaptin ft Teni',
@@ -74,4 +74,11 @@ function repeat(player,loveRating){
    }
 }
 repeat(favoriteplayer,4)
- 
+ // FUNCTION AS A RETURN STATEMENT
+ function Divide(parameter){
+    return function(num){
+        return num / parameter
+    }
+ }
+let divideby2 = Divide(2)
+let divide3 = Divide(3)
