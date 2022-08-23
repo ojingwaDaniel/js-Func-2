@@ -102,3 +102,8 @@ function callback(){
 }
 let button = document.querySelector('button')
 button.addEventListener('click',callback)
+function note(){
+    alert('i hope you add a value to yourself')
+}
+setTimeout(note,3000)
+
