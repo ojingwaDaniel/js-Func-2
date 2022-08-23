@@ -51,7 +51,7 @@ function deepWorship(){
 
 }
 function emotionsLevel(level){
-    level = prompt('whats level is your emotion')
+    // level = prompt('whats level is your emotion')
     level = Number(level)
     if (level <= 5) {
         motivationsMusic()
@@ -83,6 +83,7 @@ repeat(favoriteplayer,4)
 let divideby2 = Divide(2)
 let divide3 = Divide(3)
 // function checking for the minimum and maximum a club can recruit 
+// building for the future no 30 years player
 function recruit(min,max){
     return function(playersAge){
         if(playersAge >= min && playersAge <= max  ){
@@ -95,3 +96,9 @@ function recruit(min,max){
     
 }
 let age = recruit(16,29)
+/// callback function
+function callback(){
+    alert('WELCOME TO THE INTRODUCTION OF CALLBACK')
+}
+let button = document.querySelector('button')
+button.addEventListener('click',callback)
