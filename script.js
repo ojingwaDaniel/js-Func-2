@@ -21,3 +21,9 @@ let numbering = ((a,b,c,d)=>{
     console.log( `d : ${d}`)
 })
 let list = ['Headphone','phone','clothes','shoe']
+// spread used to join two or more arrays
+let goalkeepers = ['Ter stergen','Pena','Tenas']
+let defenders = ['Araujo','Kounde','Christensen','Eric Garcia','Sergio Roberto','Blade']
+let strikers = ['Lewandoski','Raphinha','Ansu Fati','Dembele','Ferran Torres']
+let firstTeamPlayers = [...goalkeepers,...defenders,...strikers]
+let firstTeamPlayers2 = goalkeepers.concat(defenders,strikers,'pjanic')
