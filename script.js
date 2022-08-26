@@ -13,3 +13,11 @@ const mutiply2 = (a,b=1)=>{
 const greetingPlayers = ((playerName,greeting = 'Hi')=>{
     return `${greeting} ${playerName}!`
 })
+// SPREAD
+let numbering = ((a,b,c,d)=>{
+    console.log( `a : ${a}`)
+    console.log( `b : ${b}`)
+    console.log( `c : ${c}`)
+    console.log( `d : ${d}`)
+})
+let list = ['Headphone','phone','clothes','shoe']
